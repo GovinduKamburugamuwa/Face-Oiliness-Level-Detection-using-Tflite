@@ -49,6 +49,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        minSdkVersion 26
     }
 
     buildTypes {
@@ -64,4 +65,7 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    implementation 'org.tensorflow:tensorflow-lite:2.8.0' // Use the version that supports V2 embedding
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
+}
