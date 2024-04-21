@@ -1,16 +1,9 @@
 # face_oiliness_level_detection_tflite
 
-A new Flutter project.
+---
 
-## Getting Started
+This Flutter app utilizes a TensorFlow Lite (TFLite) model to detect face oiliness from images. Users can either capture a photo the  with the app it will  display the oiliness prediction in the screen. The TFLite model, trained on a dataset of facial images labeled for oiliness levels, outputs a score indicating the oiliness level of the input face image.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
